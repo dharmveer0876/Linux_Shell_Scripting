@@ -1,0 +1,38 @@
+$ ./apache_ip.sh 
+Printing top 10 IPs hits counts: 
+ 482 66.249.73.135
+ 364 46.105.14.53
+ 357 130.237.218.86
+ 273 75.97.9.59
+ 113 50.16.19.13
+ 102 209.85.238.199
+  99 68.180.224.225
+  84 100.43.83.137
+  83 208.115.111.72
+  82 198.46.149.143
+Printing status code for http requests:
+9126 200
+ 445 304
+ 213 404
+ 164 301
+  45 206
+   3 500
+   2 416
+   2 403
+printing the bots used in the apache log:
+python-requests/1.2.0
+psbot/0.1
+nutch-1.4/Nutch-1.4
+msnbot/2.0b
+msnbot-media/1.1
+magpie-crawler/1.1
+ia_archiver
+binlar_2.6.3
+Twitterbot/1.0
+Sogou
+SAMSUNG-SGH-E250/1.0
+Mozilla/5.0
+Mozilla/4.0
+LumiBot
+Googlebot-Image/1.0
+DoCoMo/2.0
