@@ -16,4 +16,4 @@ grep -i "HTTP" apache_logs | awk '{ print $9 }' | sort | uniq -c | sort -r
 
 echo "printing the bots used in the apache log:"
 
-grep -i "HTTP" apache_logs | grep "bot" | awk '{ print $12 }' | sort | uniq | sort -r | sed -e 's/^"//'
+grep -i "HTTP" apache_logs | grep "bot" | awk '{ print $12 }' | sort | uniq | sort -r | sed -e 's/^"//' -e 's/"$//'
